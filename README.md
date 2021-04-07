@@ -371,7 +371,7 @@ This introduces the concept of a First In First Out (FIFO) buffer between the ex
 
 ### Tutorial 5: VGA Interface
 
-In this tutorial, we will explore the VGA specification to send RGB video data out to a monitor. This should work with any old or modern monitor. Modern monitors may rescale your image to fit the 16:9 aspect ratio.
+In this tutorial, we will explore the VGA specification to send RGB video data out to a monitor. This should work with any old or modern monitor. Modern monitors may rescale your image to fit the 16:9 aspect ratio. [Click here for the tutorial](https://jeremysee2.github.io/2021/04/01/tutorial-5-vga-display-output/).
 
 ### References
 
