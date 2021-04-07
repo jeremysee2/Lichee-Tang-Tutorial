@@ -1,0 +1,7 @@
+set_pin_assignment	{ i_Reset }	{ LOCATION = K16; }
+set_pin_assignment	{ i_RX_Serial }	{ LOCATION = P2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ o_TX_Serial }	{ LOCATION = R2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ o_TX_Done }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; }
+
+set_pin_assignment	{ i_Clock }	{ LOCATION = K14; }
+

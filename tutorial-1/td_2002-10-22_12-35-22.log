@@ -1,0 +1,378 @@
+============================================================
+   Tang Dynasty, V4.6.18154
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Program Files/Anlogic/TD4.6.4/bin/td.exe
+   Built at =   16:39:36 Mar 27 2020
+   Run by =     jerem
+   Run Date =   Tue Oct 22 12:35:22 2002
+
+   Run on =     DESKTOP-40PQF0K
+============================================================
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/M14  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicated  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicated  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file SwitchesToLEDs.v
+HDL-1007 : analyze verilog file SwitchesToLEDs.v
+RUN-1002 : start command "elaborate -top SwitchesToLEDs"
+HDL-1007 : elaborate module SwitchesToLEDs in SwitchesToLEDs.v(2)
+HDL-1200 : Current top model is SwitchesToLEDs
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc io.adc"
+RUN-1002 : start command "set_pin_assignment  i_Switch_1   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+USR-8059 ERROR: Invalid attribute/value DRIVESTRENGTH/20 for pin i_Switch_1, valid values are .
+USR-8064 ERROR: Read io.adc error-out.
+GUI-8309 ERROR: Failed to read adc io.adc.
+HDL-1007 : analyze verilog file SwitchesToLEDs.v
+RUN-1002 : start command "elaborate -top SwitchesToLEDs"
+HDL-1007 : elaborate module SwitchesToLEDs in SwitchesToLEDs.v(2)
+HDL-1200 : Current top model is SwitchesToLEDs
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc io.adc"
+RUN-1002 : start command "set_pin_assignment  i_Switch_1   LOCATION = A4; IOSTANDARD = LVCMOS33;"
+RUN-1002 : start command "set_pin_assignment  i_Switch_2   LOCATION = A3; IOSTANDARD = LVCMOS33; "
+RUN-1002 : start command "set_pin_assignment  o_LED_1   LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_LED_2   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_LED_3   LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  o_LED_4   LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "SwitchesToLEDs"
+SYN-1011 : Flatten model SwitchesToLEDs
+SYN-1014 : Optimize round 1
+SYN-1032 : 6/0 useful/useless nets, 4/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 1, 0 better
+RUN-1002 : start command "report_area -file tutorial-0_rtl.area"
+RUN-1001 : standard
+***Report Model: SwitchesToLEDs***
+
+IO Statistics
+#IO                     6
+  #input                2
+  #output               4
+  #inout                0
+
+Gate Statistics
+#Basic gates            4
+  #and                  1
+  #nand                 0
+  #or                   1
+  #nor                  0
+  #xor                  1
+  #xnor                 0
+  #buf                  0
+  #not                  1
+  #bufif1               0
+  #MX21                 0
+  #FADD                 0
+  #DFF                  0
+  #LATCH                0
+
+RUN-1001 : 
+Report Hierarchy Area:
++-------------------------------------------------+
+|Instance |Module         |gates  |seq    |macros |
++-------------------------------------------------+
+|top      |SwitchesToLEDs |4      |0      |0      |
++-------------------------------------------------+
+
+RUN-1002 : start command "export_db tutorial-0_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea tutorial-0_gate.area"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-2001 : Map 6 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 12/2 useful/useless nets, 11/2 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 12/2 useful/useless nets, 11/2 useful/useless insts
+SYN-2501 : Optimize round 1, 0 better
+SYN-1032 : 12/2 useful/useless nets, 11/2 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=2, #lut = 3 (2.00), #lev = 1 (1.00)
+SYN-2551 : Post LUT mapping optimization.
+SYN-3001 : Logic optimization runtime opt =   0.01 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 4 instances into 4 LUTs, name keeping = 100%.
+SYN-1001 : Packing model "SwitchesToLEDs" ...
+SYN-4010 : Pack lib has 42 rtl pack models with 15 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 12/0 useful/useless nets, 11/0 useful/useless insts
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 0 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 0 carry chain into lslice
+SYN-4007 : Packing 0 adder to BLE ...
+SYN-4008 : Packed 0 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 4 LUT to BLE ...
+SYN-4008 : Packed 4 LUT and 0 SEQ to BLE.
+SYN-4003 : Packing 0 remaining SEQ's ...
+SYN-4004 : #0: Packed 0 SEQ (0 nodes)...
+SYN-4005 : Packed 0 SEQ with LUT/SLICE
+SYN-4006 : 4 single LUT's are left
+SYN-4006 : 0 single SEQ's are left
+SYN-4011 : Packing model "SwitchesToLEDs" (AL_USER_NORMAL) with 4/11 primitive instances ...
+RUN-1002 : start command "report_area -file tutorial-0_gate.area"
+RUN-1001 : standard
+***Report Model: SwitchesToLEDs***
+
+IO Statistics
+#IO                     6
+  #input                2
+  #output               4
+  #inout                0
+
+Utilization Statistics
+#lut                    4   out of  19600    0.02%
+#reg                    0   out of  19600    0.00%
+#le                     4
+  #lut only             4   out of      4  100.00%
+  #reg only             0   out of      4    0.00%
+  #lut&reg              0   out of      4    0.00%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                    6   out of    188    3.19%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+Report Hierarchy Area:
++----------------------------------------------+
+|Instance |Module         |le    |lut   |seq   |
++----------------------------------------------+
+|top      |SwitchesToLEDs |4     |4     |0     |
++----------------------------------------------+
+
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model SwitchesToLEDs
+RUN-1002 : start command "export_db tutorial-0_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-3001 : Placer runs in 12 thread(s).
+SYN-4026 : Tagged 0 rtl::Net as clock net
+PHY-1001 : Populate physical database.
+RUN-1001 : There are total 9 instances
+RUN-1001 : 1 mslices, 1 lslices, 6 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 12 nets
+RUN-1001 : 9 nets have 2 pins
+RUN-1001 : 3 nets have [3 - 5] pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 9 instances, 2 slices, 0 macros(0 instances)
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model SwitchesToLEDs.
+TMR-2506 : Build timing graph completely. Port num: 6, tpin num: 29, tnet num: 12, tinst num: 9, tnode num: 29, tedge num: 30.
+TMR-2507 : Eliminate loop in the timing graph, delete 0 tedges.
+TMR-2508 : Levelizing timing graph completed, there are 11 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 12 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3002 : No user constraint, initiate default constraint.
+TMR-1501 : Assign derive clock DeriveClock to 0 clock pins, and constraint 0 relative nodes.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.004261s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 1367.2
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.999878
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 549.2, overlap = 0
+PHY-3002 : Step(2): len = 549.2, overlap = 0
+PHY-3002 : Step(3): len = 457.7, overlap = 0
+PHY-3002 : Step(4): len = 444.1, overlap = 0
+PHY-3002 : Step(5): len = 444.1, overlap = 0
+PHY-3002 : Step(6): len = 436.5, overlap = 0
+PHY-3002 : Step(7): len = 433.4, overlap = 0
+PHY-3002 : Step(8): len = 431.5, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.004668s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (334.7%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.999878
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(9): len = 433.9, overlap = 0
+PHY-3002 : Step(10): len = 433.9, overlap = 0
+PHY-3002 : Step(11): len = 434.7, overlap = 0
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.999878
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(12): len = 434.7, overlap = 0
+PHY-3002 : Step(13): len = 434.7, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.014544s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (107.4%)
+
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.999878
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(14): len = 434.5, overlap = 0
+PHY-3002 : Step(15): len = 434.5, overlap = 0
+PHY-3002 : Step(16): len = 434.9, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.005545s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (281.8%)
+
+PHY-3001 : Legalized: Len = 447.2, Over = 0
+PHY-3001 : Final: Len = 447.2, Over = 0
+PHY-3001 : Improving timing with driver duplication.
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 480, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.014279s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (109.4%)
+
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-1001 : Pin misalignment score is improved from 2 to 2
+PHY-1001 : Route runs in 12 thread(s)
+RUN-1001 : There are total 9 instances
+RUN-1001 : 1 mslices, 1 lslices, 6 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 12 nets
+RUN-1001 : 9 nets have 2 pins
+RUN-1001 : 3 nets have [3 - 5] pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 480, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.014724s wall, 0.015625s user + 0.015625s system = 0.031250s CPU (212.2%)
+
+PHY-1001 : End global routing;  0.098962s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (110.5%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 0, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000012s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 0, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000029s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 33% nets.
+PHY-1001 : Routed 41% nets.
+PHY-1001 : Routed 50% nets.
+PHY-1002 : len = 608, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 608
+PHY-1001 : End Routed; 0.014761s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (105.9%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  5.191543s wall, 4.875000s user + 0.406250s system = 5.281250s CPU (101.7%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  5.398725s wall, 5.046875s user + 0.437500s system = 5.484375s CPU (101.6%)
+
+RUN-1004 : used memory is 319 MB, reserved memory is 277 MB, peak memory is 859 MB
+RUN-1002 : start command "report_area -io_info -file tutorial-0_phy.area"
+RUN-1001 : standard
+***Report Model: SwitchesToLEDs***
+
+IO Statistics
+#IO                     6
+  #input                2
+  #output               4
+  #inout                0
+
+Utilization Statistics
+#lut                    4   out of  19600    0.02%
+#reg                    0   out of  19600    0.00%
+#le                     4
+  #lut only             4   out of      4  100.00%
+  #reg only             0   out of      4    0.00%
+  #lut&reg              0   out of      4    0.00%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                    6   out of    188    3.19%
+  #ireg                 0
+  #oreg                 0
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+
+RUN-1002 : start command "export_db tutorial-0_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "bitgen -bit tutorial-0.bit -version 0X00 -g ucode:00000000000000000000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 12 threads.
+BIT-1002 : Init instances completely, inst num: 9
+BIT-1002 : Init pips with 12 threads.
+BIT-1002 : Init pips completely, net num: 12, pip num: 40
+BIT-1003 : Multithreading accelaration with 12 threads.
+BIT-1003 : Generate bitstream completely, there are 50 valid insts, and 166 bits set as '1'.
+BIT-1004 : PLL setting string = 0000
+BIT-1004 : Generate bits file tutorial-0.bit.

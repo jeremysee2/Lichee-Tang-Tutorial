@@ -1,0 +1,34 @@
+standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates           98
+  #and                  4
+  #nand                 0
+  #or                   0
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 2
+  #FADD                 0
+  #DFF                 89
+  #LATCH                0
+#MACRO_ADD              4
+#MACRO_EQ               2
+#MACRO_MUX             27
+
+Report Hierarchy Area:
++------------------------------------------------------------+
+|Instance |Module                    |gates  |seq    |macros |
++------------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |9      |89     |6      |
++------------------------------------------------------------+

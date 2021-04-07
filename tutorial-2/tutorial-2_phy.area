@@ -1,0 +1,45 @@
+standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+
+Detailed IO Report
+
+Name               Direction     Location     IOStandard     DriveStrength     PackReg                  
+RST_N              INPUT         K16          LVCMOS25       N/A               NONE                     
+clk                INPUT         K14          LVCMOS25       N/A               NONE                     
+Cathode[3]         OUTPUT        P5           LVCMOS33       20                OREG                     
+Cathode[2]         OUTPUT        N5           LVCMOS33       20                OREG                     
+Cathode[1]         OUTPUT        R2           LVCMOS33       20                OREG                     
+Cathode[0]         OUTPUT        P2           LVCMOS33       20                OREG                     
+Segment_out[6]     OUTPUT        B14          LVCMOS33       20                OREG                     
+Segment_out[5]     OUTPUT        B10          LVCMOS33       20                OREG                     
+Segment_out[4]     OUTPUT        C9           LVCMOS33       20                OREG                     
+Segment_out[3]     OUTPUT        B6           LVCMOS33       20                OREG                     
+Segment_out[2]     OUTPUT        C5           LVCMOS33       20                OREG                     
+Segment_out[1]     OUTPUT        A3           LVCMOS33       20                OREG                     
+Segment_out[0]     OUTPUT        A4           LVCMOS33       20                OREG                     
+

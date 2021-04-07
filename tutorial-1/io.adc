@@ -1,0 +1,6 @@
+set_pin_assignment	{ i_Switch_1 }	{ LOCATION = A4; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ i_Switch_2 }	{ LOCATION = A3; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ o_LED_1 }	{ LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_LED_2 }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_LED_3 }	{ LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+set_pin_assignment	{ o_LED_4 }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }

@@ -1,0 +1,1501 @@
+============================================================
+   Tang Dynasty, V4.6.18154
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = C:/Program Files/Anlogic/TD4.6.4/bin/td.exe
+   Built at =   16:39:36 Mar 27 2020
+   Run by =     jerem
+   Run Date =   Tue Oct 22 12:35:22 2002
+
+   Run on =     DESKTOP-40PQF0K
+============================================================
+RUN-1002 : start command "open_project tutorial-2.al"
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top_tb.v
+HDL-1007 : analyze included file Seven_Segment_Display_Top.v in Seven_Segment_Display_Top_tb.v(2)
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top_tb.v' in Seven_Segment_Display_Top_tb.v(2)
+HDL-8007 ERROR: syntax error near 'integer' in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: Verilog 2000 keyword integer used in incorrect context in Seven_Segment_Display_Top_tb.v(32)
+HDL-5007 WARNING: empty statement in sequential block in Seven_Segment_Display_Top_tb.v(37)
+HDL-8007 ERROR: 'i' is not declared in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: ignore module module due to previous errors in Seven_Segment_Display_Top_tb.v(39)
+HDL-1007 : Verilog file 'Seven_Segment_Display_Top_tb.v' ignored due to errors
+GUI-8384 ERROR: Analyze file(s) failed ...
+RUN-1002 : start command "import_device eagle_20.db -package BGA256X"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/M14  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicated  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicated  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top_tb.v
+HDL-1007 : analyze included file Seven_Segment_Display_Top.v in Seven_Segment_Display_Top_tb.v(2)
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top_tb.v' in Seven_Segment_Display_Top_tb.v(2)
+HDL-8007 ERROR: syntax error near 'integer' in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: Verilog 2000 keyword integer used in incorrect context in Seven_Segment_Display_Top_tb.v(32)
+HDL-5007 WARNING: empty statement in sequential block in Seven_Segment_Display_Top_tb.v(37)
+HDL-8007 ERROR: 'i' is not declared in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: ignore module module due to previous errors in Seven_Segment_Display_Top_tb.v(39)
+HDL-1007 : Verilog file 'Seven_Segment_Display_Top_tb.v' ignored due to errors
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top_tb.v
+HDL-1007 : analyze included file Seven_Segment_Display_Top.v in Seven_Segment_Display_Top_tb.v(2)
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top_tb.v' in Seven_Segment_Display_Top_tb.v(2)
+HDL-8007 ERROR: syntax error near 'integer' in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: Verilog 2000 keyword integer used in incorrect context in Seven_Segment_Display_Top_tb.v(32)
+HDL-5007 WARNING: empty statement in sequential block in Seven_Segment_Display_Top_tb.v(37)
+HDL-8007 ERROR: 'i' is not declared in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: ignore module module due to previous errors in Seven_Segment_Display_Top_tb.v(39)
+HDL-1007 : Verilog file 'Seven_Segment_Display_Top_tb.v' ignored due to errors
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top_tb.v
+HDL-1007 : analyze included file Seven_Segment_Display_Top.v in Seven_Segment_Display_Top_tb.v(2)
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top_tb.v' in Seven_Segment_Display_Top_tb.v(2)
+HDL-8007 ERROR: syntax error near 'integer' in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: Verilog 2000 keyword integer used in incorrect context in Seven_Segment_Display_Top_tb.v(32)
+HDL-5007 WARNING: empty statement in sequential block in Seven_Segment_Display_Top_tb.v(37)
+HDL-8007 ERROR: 'i' is not declared in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: ignore module module due to previous errors in Seven_Segment_Display_Top_tb.v(39)
+HDL-1007 : Verilog file 'Seven_Segment_Display_Top_tb.v' ignored due to errors
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top_tb.v
+HDL-1007 : analyze included file Seven_Segment_Display_Top.v in Seven_Segment_Display_Top_tb.v(2)
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top_tb.v' in Seven_Segment_Display_Top_tb.v(2)
+HDL-8007 ERROR: syntax error near 'integer' in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: Verilog 2000 keyword integer used in incorrect context in Seven_Segment_Display_Top_tb.v(32)
+HDL-5007 WARNING: empty statement in sequential block in Seven_Segment_Display_Top_tb.v(37)
+HDL-8007 ERROR: 'i' is not declared in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: ignore module module due to previous errors in Seven_Segment_Display_Top_tb.v(39)
+HDL-1007 : Verilog file 'Seven_Segment_Display_Top_tb.v' ignored due to errors
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top_tb.v
+HDL-1007 : analyze included file Seven_Segment_Display_Top.v in Seven_Segment_Display_Top_tb.v(2)
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top_tb.v' in Seven_Segment_Display_Top_tb.v(2)
+HDL-8007 ERROR: syntax error near 'integer' in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: Verilog 2000 keyword integer used in incorrect context in Seven_Segment_Display_Top_tb.v(32)
+HDL-5007 WARNING: empty statement in sequential block in Seven_Segment_Display_Top_tb.v(37)
+HDL-8007 ERROR: 'i' is not declared in Seven_Segment_Display_Top_tb.v(32)
+HDL-8007 ERROR: ignore module module due to previous errors in Seven_Segment_Display_Top_tb.v(39)
+HDL-1007 : Verilog file 'Seven_Segment_Display_Top_tb.v' ignored due to errors
+GUI-8003 ERROR: Seven_Segment_Display_Top_tb.v is missing!
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top.v
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-8007 ERROR: cannot open verilog file 'Seven_Segment_Display_Top_tb.v'
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top.v
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+RUN-1002 : start command "elaborate -top Seven_Segment_Display_Top"
+HDL-1007 : elaborate module Seven_Segment_Display_Top in Seven_Segment_Display_Top.v(4)
+HDL-1007 : elaborate module Fibonacci_Series in Fibonacci_Series.v(1)
+HDL-1007 : elaborate module Seven_Segment_Display in Seven_Segment_Display.v(3)
+HDL-1007 : elaborate module Seven_Segment in Seven_Segment.v(1)
+HDL-8007 ERROR: net 'Displayed_number[15]' is constantly driven from multiple places in Seven_Segment_Display_Top.v(12)
+HDL-8007 ERROR: another driver from here in Seven_Segment_Display_Top.v(42)
+HDL-1007 : module 'Seven_Segment_Display_Top' remains a black box, due to errors in its contents in Seven_Segment_Display_Top.v(4)
+HDL-8007 ERROR: Seven_Segment_Display_Top is a black box in Seven_Segment_Display_Top.v(4)
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top.v
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top.v
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+RUN-1002 : start command "elaborate -top Seven_Segment_Display_Top"
+HDL-1007 : elaborate module Seven_Segment_Display_Top in Seven_Segment_Display_Top.v(4)
+HDL-1007 : elaborate module Fibonacci_Series in Fibonacci_Series.v(1)
+HDL-1007 : elaborate module Seven_Segment_Display in Seven_Segment_Display.v(3)
+HDL-1007 : elaborate module Seven_Segment in Seven_Segment.v(1)
+HDL-1200 : Current top model is Seven_Segment_Display_Top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc io.adc"
+RUN-1002 : start command "set_pin_assignment  RST_N   LOCATION = K16; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[0]   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[1]   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[2]   LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[3]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[4]   LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[5]   LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[6]   LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[0]   LOCATION = P2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[1]   LOCATION = R2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[2]   LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[3]   LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = K14; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "Seven_Segment_Display_Top"
+SYN-1012 : SanityCheck: Model "Seven_Segment_Display"
+SYN-1012 : SanityCheck: Model "Seven_Segment"
+SYN-1012 : SanityCheck: Model "Fibonacci_Series"
+SYN-1011 : Flatten model Seven_Segment_Display_Top
+SYN-1011 : Flatten model Seven_Segment_Display
+SYN-1011 : Flatten model Seven_Segment
+SYN-1016 : Merged 2 instances.
+SYN-1011 : Flatten model Fibonacci_Series
+SYN-1016 : Merged 5 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 244/0 useful/useless nets, 188/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 4 distributor mux.
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 1, 67 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 189/98 useful/useless nets, 133/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 0 better
+RUN-1002 : start command "report_area -file tutorial-2_rtl.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates           98
+  #and                  4
+  #nand                 0
+  #or                   0
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 2
+  #FADD                 0
+  #DFF                 89
+  #LATCH                0
+#MACRO_ADD              4
+#MACRO_EQ               2
+#MACRO_MUX             27
+
+RUN-1001 : 
+Report Hierarchy Area:
++------------------------------------------------------------+
+|Instance |Module                    |gates  |seq    |macros |
++------------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |9      |89     |6      |
++------------------------------------------------------------+
+
+RUN-1002 : start command "export_db tutorial-2_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea tutorial-2_gate.area"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-2001 : Map 13 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 194/0 useful/useless nets, 139/0 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 227/0 useful/useless nets, 172/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-2501 : Optimize round 1, 28 better
+SYN-2501 : Optimize round 2
+SYN-1032 : 226/0 useful/useless nets, 171/0 useful/useless insts
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 4 macro adder
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 7 ROM instances
+SYN-1032 : 311/0 useful/useless nets, 256/0 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=4, #lut = 42 (2.67), #lev = 3 (1.30)
+SYN-2551 : Post LUT mapping optimization.
+SYN-3001 : Logic optimization runtime opt =   0.01 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 74 instances into 45 LUTs, name keeping = 60%.
+SYN-3001 : Mapper removed 1 lut buffers
+SYN-1001 : Packing model "Seven_Segment_Display_Top" ...
+SYN-4010 : Pack lib has 42 rtl pack models with 15 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 278/0 useful/useless nets, 223/0 useful/useless insts
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 78 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 2 carry chain into lslice
+SYN-4007 : Packing 35 adder to BLE ...
+SYN-4008 : Packed 35 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 51 LUT to BLE ...
+SYN-4008 : Packed 51 LUT and 21 SEQ to BLE.
+SYN-4003 : Packing 57 remaining SEQ's ...
+SYN-4004 : #0: Packed 0 SEQ (57 nodes)...
+SYN-4004 : #1: Packed 12 SEQ (89 nodes)...
+SYN-4005 : Packed 12 SEQ with LUT/SLICE
+SYN-4006 : 23 single LUT's are left
+SYN-4006 : 45 single SEQ's are left
+SYN-4011 : Packing model "Seven_Segment_Display_Top" (AL_USER_NORMAL) with 96/142 primitive instances ...
+RUN-1002 : start command "report_area -file tutorial-2_gate.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+Report Hierarchy Area:
++---------------------------------------------------------+
+|Instance |Module                    |le    |lut   |seq   |
++---------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |156   |111   |78    |
++---------------------------------------------------------+
+
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model Seven_Segment_Display_Top
+RUN-1002 : start command "export_db tutorial-2_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-3001 : Placer runs in 12 thread(s).
+SYN-4024 : Net "clk_pad" drive clk pins.
+SYN-4024 : Net "clk_slow" drive clk pins.
+SYN-4025 : Tag rtl::Net clk_pad as clock net
+SYN-4025 : Tag rtl::Net clk_slow as clock net
+SYN-4026 : Tagged 2 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net clk_slow to drive 21 clock pins.
+PHY-1001 : Populate physical database.
+RUN-1001 : There are total 97 instances
+RUN-1001 : 40 mslices, 40 lslices, 13 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 226 nets
+RUN-1001 : 151 nets have 2 pins
+RUN-1001 : 61 nets have [3 - 5] pins
+RUN-1001 : 6 nets have [6 - 10] pins
+RUN-1001 : 3 nets have [11 - 20] pins
+RUN-1001 : 5 nets have [21 - 99] pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 95 instances, 80 slices, 4 macros(30 instances)
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model Seven_Segment_Display_Top.
+TMR-2506 : Build timing graph completely. Port num: 4, tpin num: 669, tnet num: 224, tinst num: 95, tnode num: 862, tedge num: 1143.
+TMR-2507 : Eliminate loop in the timing graph, delete 0 tedges.
+TMR-2508 : Levelizing timing graph completed, there are 27 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 224 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3002 : No user constraint, initiate default constraint.
+TMR-1501 : Assign derive clock DeriveClock to 120 clock pins, and constraint 193 relative nodes.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.024282s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (193.0%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 60276.8
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(1): len = 42881.7, overlap = 0
+PHY-3002 : Step(2): len = 35816.3, overlap = 0
+PHY-3002 : Step(3): len = 29643.6, overlap = 0
+PHY-3002 : Step(4): len = 23632.8, overlap = 0
+PHY-3002 : Step(5): len = 20483.4, overlap = 0
+PHY-3002 : Step(6): len = 18204.6, overlap = 0
+PHY-3002 : Step(7): len = 16052.5, overlap = 0
+PHY-3002 : Step(8): len = 14182.5, overlap = 0
+PHY-3002 : Step(9): len = 12591.5, overlap = 0
+PHY-3002 : Step(10): len = 10967.4, overlap = 0
+PHY-3002 : Step(11): len = 9772.5, overlap = 0
+PHY-3002 : Step(12): len = 8899.6, overlap = 0
+PHY-3002 : Step(13): len = 8047, overlap = 0
+PHY-3002 : Step(14): len = 7790.4, overlap = 0
+PHY-3002 : Step(15): len = 7530.3, overlap = 0
+PHY-3002 : Step(16): len = 7236.1, overlap = 0
+PHY-3002 : Step(17): len = 7175.6, overlap = 0
+PHY-3002 : Step(18): len = 6964.7, overlap = 0
+PHY-3002 : Step(19): len = 6838.1, overlap = 0
+PHY-3002 : Step(20): len = 6836, overlap = 0
+PHY-3002 : Step(21): len = 6778.6, overlap = 0
+PHY-3002 : Step(22): len = 6825.5, overlap = 0
+PHY-3002 : Step(23): len = 6763.2, overlap = 0
+PHY-3002 : Step(24): len = 6727.3, overlap = 0
+PHY-3002 : Step(25): len = 6727.3, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.004316s wall, 0.015625s user + 0.015625s system = 0.031250s CPU (724.0%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(26): len = 6609.9, overlap = 0
+PHY-3002 : Step(27): len = 6579.4, overlap = 0
+PHY-3002 : Step(28): len = 6579.4, overlap = 0
+PHY-3002 : Step(29): len = 6545.1, overlap = 0
+PHY-3002 : Step(30): len = 6545.9, overlap = 0
+PHY-3002 : Step(31): len = 6536.6, overlap = 0
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000339928
+PHY-3002 : Step(32): len = 6527.3, overlap = 2.75
+PHY-3002 : Step(33): len = 6548.3, overlap = 2.5
+PHY-3002 : Step(34): len = 6561.7, overlap = 1.75
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000679855
+PHY-3002 : Step(35): len = 6681.6, overlap = 1.5
+PHY-3002 : Step(36): len = 6681.6, overlap = 1.5
+PHY-3002 : Step(37): len = 6631.8, overlap = 1.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00135971
+PHY-3002 : Step(38): len = 6834.7, overlap = 1.25
+PHY-3002 : Step(39): len = 6910.2, overlap = 1
+PHY-3002 : Step(40): len = 6960.3, overlap = 1
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.058368s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (187.4%)
+
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(41): len = 7999.2, overlap = 1.25
+PHY-3002 : Step(42): len = 7503.4, overlap = 2.25
+PHY-3002 : Step(43): len = 6990.7, overlap = 3.5
+PHY-3002 : Step(44): len = 6807.8, overlap = 4
+PHY-3002 : Step(45): len = 6722.5, overlap = 4
+PHY-3002 : Step(46): len = 6623.5, overlap = 4
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000710147
+PHY-3002 : Step(47): len = 6619.3, overlap = 4.25
+PHY-3002 : Step(48): len = 6599.6, overlap = 4.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00142029
+PHY-3002 : Step(49): len = 6625.2, overlap = 4.25
+PHY-3002 : Step(50): len = 6625.2, overlap = 4.25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.005544s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (281.8%)
+
+PHY-3001 : Legalized: Len = 7812.1, Over = 0
+PHY-3001 : Final: Len = 7812.1, Over = 0
+PHY-3001 : Improving timing with driver duplication.
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 9840, over cnt = 1(0%), over = 1, worst = 1
+PHY-1002 : len = 9856, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.021382s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (219.2%)
+
+RUN-1003 : finish command "place" in  2.391581s wall, 2.828125s user + 1.406250s system = 4.234375s CPU (177.1%)
+
+RUN-1004 : used memory is 230 MB, reserved memory is 184 MB, peak memory is 245 MB
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-1001 : Pin misalignment score is improved from 58 to 43
+PHY-1001 : Pin misalignment score is improved from 43 to 43
+PHY-1001 : Route runs in 12 thread(s)
+RUN-1001 : There are total 97 instances
+RUN-1001 : 40 mslices, 40 lslices, 13 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 226 nets
+RUN-1001 : 151 nets have 2 pins
+RUN-1001 : 61 nets have [3 - 5] pins
+RUN-1001 : 6 nets have [6 - 10] pins
+RUN-1001 : 3 nets have [11 - 20] pins
+RUN-1001 : 5 nets have [21 - 99] pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 9840, over cnt = 1(0%), over = 1, worst = 1
+PHY-1002 : len = 9856, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.023852s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (65.5%)
+
+PHY-1001 : End global routing;  0.097708s wall, 0.093750s user + 0.000000s system = 0.093750s CPU (95.9%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net clk_slow_gclk_net will be merged with clock clk_slow
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 6424, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.075161s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (103.9%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 6424, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000009s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 37% nets.
+PHY-1001 : Routed 40% nets.
+PHY-1001 : Routed 46% nets.
+PHY-1001 : Routed 64% nets.
+PHY-1001 : Routed 81% nets.
+PHY-1002 : len = 21296, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 21296
+PHY-1001 : End Routed; 0.429800s wall, 0.515625s user + 0.125000s system = 0.640625s CPU (149.1%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net clk_slow_gclk_net will be merged with clock clk_slow
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  5.453881s wall, 5.421875s user + 0.250000s system = 5.671875s CPU (104.0%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  5.651943s wall, 5.656250s user + 0.250000s system = 5.906250s CPU (104.5%)
+
+RUN-1004 : used memory is 328 MB, reserved memory is 287 MB, peak memory is 878 MB
+RUN-1002 : start command "report_area -io_info -file tutorial-2_phy.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+
+RUN-1002 : start command "export_db tutorial-2_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top.v
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+RUN-1002 : start command "elaborate -top Seven_Segment_Display_Top"
+HDL-1007 : elaborate module Seven_Segment_Display_Top in Seven_Segment_Display_Top.v(4)
+HDL-1007 : elaborate module Fibonacci_Series in Fibonacci_Series.v(1)
+HDL-1007 : elaborate module Seven_Segment_Display in Seven_Segment_Display.v(3)
+HDL-1007 : elaborate module Seven_Segment in Seven_Segment.v(1)
+HDL-1200 : Current top model is Seven_Segment_Display_Top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc io.adc"
+RUN-1002 : start command "set_pin_assignment  RST_N   LOCATION = K16; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[0]   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[1]   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[2]   LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[3]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[4]   LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[5]   LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[6]   LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[0]   LOCATION = P2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[1]   LOCATION = R2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[2]   LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[3]   LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = K14; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "Seven_Segment_Display_Top"
+SYN-1012 : SanityCheck: Model "Seven_Segment_Display"
+SYN-1012 : SanityCheck: Model "Seven_Segment"
+SYN-1012 : SanityCheck: Model "Fibonacci_Series"
+SYN-1011 : Flatten model Seven_Segment_Display_Top
+SYN-1011 : Flatten model Seven_Segment_Display
+SYN-1011 : Flatten model Seven_Segment
+SYN-1016 : Merged 2 instances.
+SYN-1011 : Flatten model Fibonacci_Series
+SYN-1016 : Merged 5 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 244/0 useful/useless nets, 188/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 4 distributor mux.
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 1, 67 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 189/98 useful/useless nets, 133/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 0 better
+RUN-1002 : start command "report_area -file tutorial-2_rtl.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates           98
+  #and                  4
+  #nand                 0
+  #or                   0
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 2
+  #FADD                 0
+  #DFF                 89
+  #LATCH                0
+#MACRO_ADD              4
+#MACRO_EQ               2
+#MACRO_MUX             27
+
+RUN-1001 : 
+Report Hierarchy Area:
++------------------------------------------------------------+
+|Instance |Module                    |gates  |seq    |macros |
++------------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |9      |89     |6      |
++------------------------------------------------------------+
+
+RUN-1002 : start command "export_db tutorial-2_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea tutorial-2_gate.area"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-2001 : Map 13 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 194/0 useful/useless nets, 139/0 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 227/0 useful/useless nets, 172/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-2501 : Optimize round 1, 28 better
+SYN-2501 : Optimize round 2
+SYN-1032 : 226/0 useful/useless nets, 171/0 useful/useless insts
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 4 macro adder
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 7 ROM instances
+SYN-1032 : 311/0 useful/useless nets, 256/0 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=4, #lut = 42 (2.67), #lev = 3 (1.30)
+SYN-2551 : Post LUT mapping optimization.
+SYN-3001 : Logic optimization runtime opt =   0.01 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 74 instances into 45 LUTs, name keeping = 60%.
+SYN-3001 : Mapper removed 1 lut buffers
+SYN-1001 : Packing model "Seven_Segment_Display_Top" ...
+SYN-4010 : Pack lib has 42 rtl pack models with 15 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 278/0 useful/useless nets, 223/0 useful/useless insts
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 78 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 2 carry chain into lslice
+SYN-4007 : Packing 35 adder to BLE ...
+SYN-4008 : Packed 35 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 51 LUT to BLE ...
+SYN-4008 : Packed 51 LUT and 21 SEQ to BLE.
+SYN-4003 : Packing 57 remaining SEQ's ...
+SYN-4004 : #0: Packed 0 SEQ (57 nodes)...
+SYN-4004 : #1: Packed 12 SEQ (89 nodes)...
+SYN-4005 : Packed 12 SEQ with LUT/SLICE
+SYN-4006 : 23 single LUT's are left
+SYN-4006 : 45 single SEQ's are left
+SYN-4011 : Packing model "Seven_Segment_Display_Top" (AL_USER_NORMAL) with 96/142 primitive instances ...
+RUN-1002 : start command "report_area -file tutorial-2_gate.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+Report Hierarchy Area:
++---------------------------------------------------------+
+|Instance |Module                    |le    |lut   |seq   |
++---------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |156   |111   |78    |
++---------------------------------------------------------+
+
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model Seven_Segment_Display_Top
+RUN-1002 : start command "export_db tutorial-2_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-3001 : Placer runs in 12 thread(s).
+SYN-4024 : Net "clk_pad" drive clk pins.
+SYN-4024 : Net "clk_slow" drive clk pins.
+SYN-4025 : Tag rtl::Net clk_pad as clock net
+SYN-4025 : Tag rtl::Net clk_slow as clock net
+SYN-4026 : Tagged 2 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net clk_slow to drive 21 clock pins.
+PHY-1001 : Populate physical database.
+RUN-1001 : There are total 97 instances
+RUN-1001 : 40 mslices, 40 lslices, 13 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 226 nets
+RUN-1001 : 151 nets have 2 pins
+RUN-1001 : 61 nets have [3 - 5] pins
+RUN-1001 : 6 nets have [6 - 10] pins
+RUN-1001 : 3 nets have [11 - 20] pins
+RUN-1001 : 5 nets have [21 - 99] pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 95 instances, 80 slices, 4 macros(30 instances)
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model Seven_Segment_Display_Top.
+TMR-2506 : Build timing graph completely. Port num: 4, tpin num: 669, tnet num: 224, tinst num: 95, tnode num: 862, tedge num: 1143.
+TMR-2507 : Eliminate loop in the timing graph, delete 0 tedges.
+TMR-2508 : Levelizing timing graph completed, there are 27 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 224 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3002 : No user constraint, initiate default constraint.
+TMR-1501 : Assign derive clock DeriveClock to 120 clock pins, and constraint 193 relative nodes.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.019001s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (164.5%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 60276.8
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(51): len = 42881.7, overlap = 0
+PHY-3002 : Step(52): len = 35816.3, overlap = 0
+PHY-3002 : Step(53): len = 29643.6, overlap = 0
+PHY-3002 : Step(54): len = 23632.8, overlap = 0
+PHY-3002 : Step(55): len = 20483.4, overlap = 0
+PHY-3002 : Step(56): len = 18204.6, overlap = 0
+PHY-3002 : Step(57): len = 16052.5, overlap = 0
+PHY-3002 : Step(58): len = 14182.5, overlap = 0
+PHY-3002 : Step(59): len = 12591.5, overlap = 0
+PHY-3002 : Step(60): len = 10967.4, overlap = 0
+PHY-3002 : Step(61): len = 9772.5, overlap = 0
+PHY-3002 : Step(62): len = 8899.6, overlap = 0
+PHY-3002 : Step(63): len = 8047, overlap = 0
+PHY-3002 : Step(64): len = 7790.4, overlap = 0
+PHY-3002 : Step(65): len = 7530.3, overlap = 0
+PHY-3002 : Step(66): len = 7236.1, overlap = 0
+PHY-3002 : Step(67): len = 7175.6, overlap = 0
+PHY-3002 : Step(68): len = 6964.7, overlap = 0
+PHY-3002 : Step(69): len = 6838.1, overlap = 0
+PHY-3002 : Step(70): len = 6836, overlap = 0
+PHY-3002 : Step(71): len = 6778.6, overlap = 0
+PHY-3002 : Step(72): len = 6825.5, overlap = 0
+PHY-3002 : Step(73): len = 6763.2, overlap = 0
+PHY-3002 : Step(74): len = 6727.3, overlap = 0
+PHY-3002 : Step(75): len = 6727.3, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.003851s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(76): len = 6609.9, overlap = 0
+PHY-3002 : Step(77): len = 6579.4, overlap = 0
+PHY-3002 : Step(78): len = 6579.4, overlap = 0
+PHY-3002 : Step(79): len = 6545.1, overlap = 0
+PHY-3002 : Step(80): len = 6545.9, overlap = 0
+PHY-3002 : Step(81): len = 6536.6, overlap = 0
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000339928
+PHY-3002 : Step(82): len = 6527.3, overlap = 2.75
+PHY-3002 : Step(83): len = 6548.3, overlap = 2.5
+PHY-3002 : Step(84): len = 6561.7, overlap = 1.75
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000679855
+PHY-3002 : Step(85): len = 6681.6, overlap = 1.5
+PHY-3002 : Step(86): len = 6681.6, overlap = 1.5
+PHY-3002 : Step(87): len = 6631.8, overlap = 1.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00135971
+PHY-3002 : Step(88): len = 6834.7, overlap = 1.25
+PHY-3002 : Step(89): len = 6910.2, overlap = 1
+PHY-3002 : Step(90): len = 6960.3, overlap = 1
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.060809s wall, 0.062500s user + 0.031250s system = 0.093750s CPU (154.2%)
+
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(91): len = 7999.2, overlap = 1.25
+PHY-3002 : Step(92): len = 7503.4, overlap = 2.25
+PHY-3002 : Step(93): len = 6990.7, overlap = 3.5
+PHY-3002 : Step(94): len = 6807.8, overlap = 4
+PHY-3002 : Step(95): len = 6722.5, overlap = 4
+PHY-3002 : Step(96): len = 6623.5, overlap = 4
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000710147
+PHY-3002 : Step(97): len = 6619.3, overlap = 4.25
+PHY-3002 : Step(98): len = 6599.6, overlap = 4.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00142029
+PHY-3002 : Step(99): len = 6625.2, overlap = 4.25
+PHY-3002 : Step(100): len = 6625.2, overlap = 4.25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.005743s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (272.1%)
+
+PHY-3001 : Legalized: Len = 7812.1, Over = 0
+PHY-3001 : Final: Len = 7812.1, Over = 0
+PHY-3001 : Improving timing with driver duplication.
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 9840, over cnt = 1(0%), over = 1, worst = 1
+PHY-1002 : len = 9856, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.021948s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (142.4%)
+
+RUN-1003 : finish command "place" in  2.247006s wall, 2.593750s user + 1.140625s system = 3.734375s CPU (166.2%)
+
+RUN-1004 : used memory is 334 MB, reserved memory is 291 MB, peak memory is 878 MB
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-1001 : Pin misalignment score is improved from 58 to 43
+PHY-1001 : Pin misalignment score is improved from 43 to 43
+PHY-1001 : Route runs in 12 thread(s)
+RUN-1001 : There are total 97 instances
+RUN-1001 : 40 mslices, 40 lslices, 13 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 226 nets
+RUN-1001 : 151 nets have 2 pins
+RUN-1001 : 61 nets have [3 - 5] pins
+RUN-1001 : 6 nets have [6 - 10] pins
+RUN-1001 : 3 nets have [11 - 20] pins
+RUN-1001 : 5 nets have [21 - 99] pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 9840, over cnt = 1(0%), over = 1, worst = 1
+PHY-1002 : len = 9856, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.021846s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (214.6%)
+
+PHY-1001 : End global routing;  0.097301s wall, 0.093750s user + 0.015625s system = 0.109375s CPU (112.4%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net clk_slow_gclk_net will be merged with clock clk_slow
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 6424, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.070461s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (110.9%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 6424, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000013s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 37% nets.
+PHY-1001 : Routed 40% nets.
+PHY-1001 : Routed 46% nets.
+PHY-1001 : Routed 64% nets.
+PHY-1001 : Routed 81% nets.
+PHY-1002 : len = 21296, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 21296
+PHY-1001 : End Routed; 0.444287s wall, 0.484375s user + 0.078125s system = 0.562500s CPU (126.6%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net clk_slow_gclk_net will be merged with clock clk_slow
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  1.776397s wall, 1.687500s user + 0.281250s system = 1.968750s CPU (110.8%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  1.962884s wall, 1.875000s user + 0.328125s system = 2.203125s CPU (112.2%)
+
+RUN-1004 : used memory is 348 MB, reserved memory is 318 MB, peak memory is 894 MB
+RUN-1002 : start command "report_area -io_info -file tutorial-2_phy.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+
+RUN-1002 : start command "export_db tutorial-2_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "bitgen -bit tutorial-2.bit -version 0X00 -g ucode:00000000000000000000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 12 threads.
+BIT-1002 : Init instances completely, inst num: 97
+BIT-1002 : Init pips with 12 threads.
+BIT-1002 : Init pips completely, net num: 226, pip num: 1407
+BIT-1003 : Multithreading accelaration with 12 threads.
+BIT-1003 : Generate bitstream completely, there are 347 valid insts, and 4235 bits set as '1'.
+BIT-1004 : PLL setting string = 0000
+BIT-1004 : Generate bits file tutorial-2.bit.
+HDL-1007 : analyze verilog file Seven_Segment_Display_Top.v
+HDL-1007 : analyze included file Seven_Segment_Display.v in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Seven_Segment.v in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display.v' in Seven_Segment_Display.v(1)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(1)
+HDL-1007 : analyze included file Fibonacci_Series.v in Seven_Segment_Display_Top.v(2)
+HDL-1007 : back to file 'Seven_Segment_Display_Top.v' in Seven_Segment_Display_Top.v(2)
+RUN-1002 : start command "elaborate -top Seven_Segment_Display_Top"
+HDL-1007 : elaborate module Seven_Segment_Display_Top in Seven_Segment_Display_Top.v(4)
+HDL-1007 : elaborate module Fibonacci_Series in Fibonacci_Series.v(1)
+HDL-1007 : elaborate module Seven_Segment_Display in Seven_Segment_Display.v(3)
+HDL-1007 : elaborate module Seven_Segment in Seven_Segment.v(1)
+HDL-1200 : Current top model is Seven_Segment_Display_Top
+HDL-1100 : Inferred 0 RAMs.
+RUN-1002 : start command "read_adc io.adc"
+RUN-1002 : start command "set_pin_assignment  RST_N   LOCATION = K16; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[0]   LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[1]   LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[2]   LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[3]   LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[4]   LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[5]   LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Segment_out[6]   LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[0]   LOCATION = P2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[1]   LOCATION = R2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[2]   LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  Cathode[3]   LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; "
+RUN-1002 : start command "set_pin_assignment  clk   LOCATION = K14; "
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-1012 : SanityCheck: Model "Seven_Segment_Display_Top"
+SYN-1012 : SanityCheck: Model "Seven_Segment_Display"
+SYN-1012 : SanityCheck: Model "Seven_Segment"
+SYN-1012 : SanityCheck: Model "Fibonacci_Series"
+SYN-1011 : Flatten model Seven_Segment_Display_Top
+SYN-1011 : Flatten model Seven_Segment_Display
+SYN-1011 : Flatten model Seven_Segment
+SYN-1016 : Merged 2 instances.
+SYN-1011 : Flatten model Fibonacci_Series
+SYN-1016 : Merged 5 instances.
+SYN-1014 : Optimize round 1
+SYN-1032 : 244/0 useful/useless nets, 188/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1020 : Optimized 4 distributor mux.
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 1, 67 better
+SYN-1014 : Optimize round 2
+SYN-1032 : 189/98 useful/useless nets, 133/0 useful/useless insts
+SYN-1019 : Optimized 0 mux instances.
+SYN-1015 : Optimize round 2, 0 better
+RUN-1002 : start command "report_area -file tutorial-2_rtl.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Gate Statistics
+#Basic gates           98
+  #and                  4
+  #nand                 0
+  #or                   0
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                  3
+  #bufif1               0
+  #MX21                 2
+  #FADD                 0
+  #DFF                 89
+  #LATCH                0
+#MACRO_ADD              4
+#MACRO_EQ               2
+#MACRO_MUX             27
+
+RUN-1001 : 
+Report Hierarchy Area:
++------------------------------------------------------------+
+|Instance |Module                    |gates  |seq    |macros |
++------------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |9      |89     |6      |
++------------------------------------------------------------+
+
+RUN-1002 : start command "export_db tutorial-2_rtl.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "optimize_gate -packarea tutorial-2_gate.area"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+SYN-2001 : Map 13 IOs to PADs
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1032 : 194/0 useful/useless nets, 139/0 useful/useless insts
+SYN-2571 : Optimize after map_dsp, round 1, 0 better
+SYN-2501 : Optimize round 1
+SYN-1032 : 227/0 useful/useless nets, 172/0 useful/useless insts
+SYN-1016 : Merged 1 instances.
+SYN-2501 : Optimize round 1, 28 better
+SYN-2501 : Optimize round 2
+SYN-1032 : 226/0 useful/useless nets, 171/0 useful/useless insts
+SYN-2501 : Optimize round 2, 0 better
+SYN-2501 : Map 4 macro adder
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-3001 : Mapper mapped 15 instances into 1 LUTs, name keeping = 100%.
+SYN-2501 : Inferred 7 ROM instances
+SYN-1032 : 311/0 useful/useless nets, 256/0 useful/useless insts
+SYN-3001 : Running gate level optimization.
+SYN-2581 : Mapping with K=4, #lut = 42 (2.67), #lev = 3 (1.30)
+SYN-2551 : Post LUT mapping optimization.
+SYN-3001 : Logic optimization runtime opt =   0.00 sec, map =   0.00 sec
+SYN-3001 : Mapper mapped 74 instances into 45 LUTs, name keeping = 60%.
+SYN-3001 : Mapper removed 1 lut buffers
+SYN-1001 : Packing model "Seven_Segment_Display_Top" ...
+SYN-4010 : Pack lib has 42 rtl pack models with 15 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1032 : 278/0 useful/useless nets, 223/0 useful/useless insts
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 78 DFF/LATCH to SEQ ...
+SYN-4009 : Pack 2 carry chain into lslice
+SYN-4007 : Packing 35 adder to BLE ...
+SYN-4008 : Packed 35 adder and 0 SEQ to BLE.
+SYN-4007 : Packing 0 gate4 to BLE ...
+SYN-4008 : Packed 0 gate4 and 0 SEQ to BLE.
+SYN-4012 : Packed 0 FxMUX
+SYN-4007 : Packing 0 MUX to BLE ...
+SYN-4008 : Packed 0 MUX and 0 SEQ to BLE.
+SYN-4007 : Packing 51 LUT to BLE ...
+SYN-4008 : Packed 51 LUT and 21 SEQ to BLE.
+SYN-4003 : Packing 57 remaining SEQ's ...
+SYN-4004 : #0: Packed 0 SEQ (57 nodes)...
+SYN-4004 : #1: Packed 12 SEQ (89 nodes)...
+SYN-4005 : Packed 12 SEQ with LUT/SLICE
+SYN-4006 : 23 single LUT's are left
+SYN-4006 : 45 single SEQ's are left
+SYN-4011 : Packing model "Seven_Segment_Display_Top" (AL_USER_NORMAL) with 96/142 primitive instances ...
+RUN-1002 : start command "report_area -file tutorial-2_gate.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+Report Hierarchy Area:
++---------------------------------------------------------+
+|Instance |Module                    |le    |lut   |seq   |
++---------------------------------------------------------+
+|top      |Seven_Segment_Display_Top |156   |111   |78    |
++---------------------------------------------------------+
+
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1011 : Flatten model Seven_Segment_Display_Top
+RUN-1002 : start command "export_db tutorial-2_gate.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "place"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-3001 : Placer runs in 12 thread(s).
+SYN-4024 : Net "clk_pad" drive clk pins.
+SYN-4024 : Net "clk_slow" drive clk pins.
+SYN-4025 : Tag rtl::Net clk_pad as clock net
+SYN-4025 : Tag rtl::Net clk_slow as clock net
+SYN-4026 : Tagged 2 rtl::Net as clock net
+SYN-4015 : Create BUFG instance for clk Net clk_slow to drive 21 clock pins.
+PHY-1001 : Populate physical database.
+RUN-1001 : There are total 97 instances
+RUN-1001 : 40 mslices, 40 lslices, 13 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 226 nets
+RUN-1001 : 151 nets have 2 pins
+RUN-1001 : 61 nets have [3 - 5] pins
+RUN-1001 : 6 nets have [6 - 10] pins
+RUN-1001 : 3 nets have [11 - 20] pins
+RUN-1001 : 5 nets have [21 - 99] pins
+PHY-3001 : Initial placement ...
+PHY-3001 : design contains 95 instances, 80 slices, 4 macros(30 instances)
+PHY-3001 : Start timing update ...
+RUN-1002 : start command "start_timer"
+TMR-5001 WARNING: No sdc constraints found while initiating timer.
+TMR-2505 : Start building timing graph for model Seven_Segment_Display_Top.
+TMR-2506 : Build timing graph completely. Port num: 4, tpin num: 669, tnet num: 224, tinst num: 95, tnode num: 862, tedge num: 1143.
+TMR-2507 : Eliminate loop in the timing graph, delete 0 tedges.
+TMR-2508 : Levelizing timing graph completed, there are 27 levels in total.
+TMR-2501 : Timing graph initialized successfully.
+TMR-2503 : Start to update net delay, extr mode = 2.
+TMR-2504 : Update delay of 224 nets completely.
+TMR-2502 : Annotate delay completely, extr mode = 2.
+TMR-3002 : No user constraint, initiate default constraint.
+TMR-1501 : Assign derive clock DeriveClock to 120 clock pins, and constraint 193 relative nodes.
+TMR-3005 : Start mapping report constraints, there are 0 constraints in total.
+TMR-3003 : Constraints initiated successfully.
+TMR-3501 : Forward propagation: start to calculate arrival time...
+TMR-3502 : Backward propagation: start to calculate required time...
+TMR-3503 : Timing propagation completes.
+PHY-3001 : End timing update;  0.021045s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (74.2%)
+
+PHY-3001 : Global placement ...
+PHY-3001 : Initial: Len = 60276.8
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 0%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(101): len = 42881.7, overlap = 0
+PHY-3002 : Step(102): len = 35816.3, overlap = 0
+PHY-3002 : Step(103): len = 29643.6, overlap = 0
+PHY-3002 : Step(104): len = 23632.8, overlap = 0
+PHY-3002 : Step(105): len = 20483.4, overlap = 0
+PHY-3002 : Step(106): len = 18204.6, overlap = 0
+PHY-3002 : Step(107): len = 16052.5, overlap = 0
+PHY-3002 : Step(108): len = 14182.5, overlap = 0
+PHY-3002 : Step(109): len = 12591.5, overlap = 0
+PHY-3002 : Step(110): len = 10967.4, overlap = 0
+PHY-3002 : Step(111): len = 9772.5, overlap = 0
+PHY-3002 : Step(112): len = 8899.6, overlap = 0
+PHY-3002 : Step(113): len = 8047, overlap = 0
+PHY-3002 : Step(114): len = 7790.4, overlap = 0
+PHY-3002 : Step(115): len = 7530.3, overlap = 0
+PHY-3002 : Step(116): len = 7236.1, overlap = 0
+PHY-3002 : Step(117): len = 7175.6, overlap = 0
+PHY-3002 : Step(118): len = 6964.7, overlap = 0
+PHY-3002 : Step(119): len = 6838.1, overlap = 0
+PHY-3002 : Step(120): len = 6836, overlap = 0
+PHY-3002 : Step(121): len = 6778.6, overlap = 0
+PHY-3002 : Step(122): len = 6825.5, overlap = 0
+PHY-3002 : Step(123): len = 6763.2, overlap = 0
+PHY-3002 : Step(124): len = 6727.3, overlap = 0
+PHY-3002 : Step(125): len = 6727.3, overlap = 0
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.003736s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-3001 : Run with size of 4
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(126): len = 6609.9, overlap = 0
+PHY-3002 : Step(127): len = 6579.4, overlap = 0
+PHY-3002 : Step(128): len = 6579.4, overlap = 0
+PHY-3002 : Step(129): len = 6545.1, overlap = 0
+PHY-3002 : Step(130): len = 6545.9, overlap = 0
+PHY-3002 : Step(131): len = 6536.6, overlap = 0
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0.000339928
+PHY-3002 : Step(132): len = 6527.3, overlap = 2.75
+PHY-3002 : Step(133): len = 6548.3, overlap = 2.5
+PHY-3002 : Step(134): len = 6561.7, overlap = 1.75
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000679855
+PHY-3002 : Step(135): len = 6681.6, overlap = 1.5
+PHY-3002 : Step(136): len = 6681.6, overlap = 1.5
+PHY-3002 : Step(137): len = 6631.8, overlap = 1.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00135971
+PHY-3002 : Step(138): len = 6834.7, overlap = 1.25
+PHY-3002 : Step(139): len = 6910.2, overlap = 1
+PHY-3002 : Step(140): len = 6960.3, overlap = 1
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.060500s wall, 0.093750s user + 0.078125s system = 0.171875s CPU (284.1%)
+
+PHY-3001 : Run with size of 2
+PHY-3001 : Cell area utilization is 1%, beta_incr = 0.995102
+PHY-3001 : :::0::: Try harder cell spreading with beta_ = 0
+PHY-3002 : Step(141): len = 7999.2, overlap = 1.25
+PHY-3002 : Step(142): len = 7503.4, overlap = 2.25
+PHY-3002 : Step(143): len = 6990.7, overlap = 3.5
+PHY-3002 : Step(144): len = 6807.8, overlap = 4
+PHY-3002 : Step(145): len = 6722.5, overlap = 4
+PHY-3002 : Step(146): len = 6623.5, overlap = 4
+PHY-3001 : :::1::: Try harder cell spreading with beta_ = 0.000710147
+PHY-3002 : Step(147): len = 6619.3, overlap = 4.25
+PHY-3002 : Step(148): len = 6599.6, overlap = 4.25
+PHY-3001 : :::2::: Try harder cell spreading with beta_ = 0.00142029
+PHY-3002 : Step(149): len = 6625.2, overlap = 4.25
+PHY-3002 : Step(150): len = 6625.2, overlap = 4.25
+PHY-3001 : Legalization ...
+PHY-3001 : End legalization;  0.005761s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (271.2%)
+
+PHY-3001 : Legalized: Len = 7812.1, Over = 0
+PHY-3001 : Final: Len = 7812.1, Over = 0
+PHY-3001 : Improving timing with driver duplication.
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 9840, over cnt = 1(0%), over = 1, worst = 1
+PHY-1002 : len = 9856, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.024690s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (189.9%)
+
+RUN-1003 : finish command "place" in  2.351898s wall, 2.812500s user + 1.531250s system = 4.343750s CPU (184.7%)
+
+RUN-1004 : used memory is 353 MB, reserved memory is 309 MB, peak memory is 894 MB
+RUN-1002 : start command "route"
+RUN-1001 : Open license file C:/Program Files/Anlogic/TD4.6.4/license/Anlogic.lic
+PHY-1001 : Pin misalignment score is improved from 58 to 43
+PHY-1001 : Pin misalignment score is improved from 43 to 43
+PHY-1001 : Route runs in 12 thread(s)
+RUN-1001 : There are total 97 instances
+RUN-1001 : 40 mslices, 40 lslices, 13 pads, 0 brams, 0 dsps
+RUN-1001 : There are total 226 nets
+RUN-1001 : 151 nets have 2 pins
+RUN-1001 : 61 nets have [3 - 5] pins
+RUN-1001 : 6 nets have [6 - 10] pins
+RUN-1001 : 3 nets have [11 - 20] pins
+RUN-1001 : 5 nets have [21 - 99] pins
+PHY-1001 : Start global routing ...
+RUN-1001 : Generating global routing grids ...
+PHY-1001 : Generate routing nets ...
+PHY-1001 : Global iterations in 12 thread ...
+PHY-1002 : len = 9840, over cnt = 1(0%), over = 1, worst = 1
+PHY-1002 : len = 9856, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End global iterations;  0.021092s wall, 0.000000s user + 0.015625s system = 0.015625s CPU (74.1%)
+
+PHY-1001 : End global routing;  0.105126s wall, 0.093750s user + 0.046875s system = 0.140625s CPU (133.8%)
+
+PHY-1001 : Start detail routing ...
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net clk_slow_gclk_net will be merged with clock clk_slow
+PHY-1001 : Detail Route ...
+PHY-1001 : ===== Detail Route Phase 1 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 6424, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.071769s wall, 0.078125s user + 0.000000s system = 0.078125s CPU (108.9%)
+
+PHY-1001 : ===== Detail Route Phase 2 =====
+PHY-1001 : Routed 0% nets.
+PHY-1002 : len = 6424, over cnt = 0(0%), over = 0, worst = 0
+PHY-1001 : End Routed; 0.000009s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+PHY-1001 : ===== Detail Route Phase 3 =====
+PHY-1001 : Routed 37% nets.
+PHY-1001 : Routed 40% nets.
+PHY-1001 : Routed 46% nets.
+PHY-1001 : Routed 64% nets.
+PHY-1001 : Routed 81% nets.
+PHY-1002 : len = 21296, over cnt = 0(0%), over = 0, worst = 0
+PHY-1003 : Routed, final wirelength = 21296
+PHY-1001 : End Routed; 0.452538s wall, 0.640625s user + 0.031250s system = 0.671875s CPU (148.5%)
+
+PHY-1001 : 0 feed throughs used by 0 nets
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_pad will be routed on clock mesh
+PHY-1001 : clock net clk_slow_gclk_net will be merged with clock clk_slow
+PHY-1001 : eco open net = 0
+PHY-1001 : End detail routing;  1.798338s wall, 1.703125s user + 0.312500s system = 2.015625s CPU (112.1%)
+
+PHY-1001 : Routing violations:
+PHY-1001 : End of Routing Violations.
+RUN-1003 : finish command "route" in  1.994534s wall, 1.906250s user + 0.359375s system = 2.265625s CPU (113.6%)
+
+RUN-1004 : used memory is 372 MB, reserved memory is 337 MB, peak memory is 911 MB
+RUN-1002 : start command "report_area -io_info -file tutorial-2_phy.area"
+RUN-1001 : standard
+***Report Model: Seven_Segment_Display_Top***
+
+IO Statistics
+#IO                    13
+  #input                2
+  #output              11
+  #inout                0
+
+Utilization Statistics
+#lut                  111   out of  19600    0.57%
+#reg                   78   out of  19600    0.40%
+#le                   156
+  #lut only            78   out of    156   50.00%
+  #reg only            45   out of    156   28.85%
+  #lut&reg             33   out of    156   21.15%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   13   out of    188    6.91%
+  #ireg                 0
+  #oreg                11
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+RUN-1001 : 
+
+RUN-1002 : start command "export_db tutorial-2_pr.db"
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported flow parameters
+RUN-1002 : start command "bitgen -bit tutorial-2.bit -version 0X00 -g ucode:00000000000000000000000000000000"
+BIT-1003 : Start to generate bitstream. 
+BIT-1002 : Init instances with 12 threads.
+BIT-1002 : Init instances completely, inst num: 97
+BIT-1002 : Init pips with 12 threads.
+BIT-1002 : Init pips completely, net num: 226, pip num: 1407
+BIT-1003 : Multithreading accelaration with 12 threads.
+BIT-1003 : Generate bitstream completely, there are 347 valid insts, and 4235 bits set as '1'.
+BIT-1004 : PLL setting string = 0000
+BIT-1004 : Generate bits file tutorial-2.bit.

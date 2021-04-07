@@ -1,0 +1,56 @@
+$date
+	Sun Apr 04 23:31:58 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module SwitchesToLEDs_tb $end
+$var wire 1 ! o_LED_4 $end
+$var wire 1 " o_LED_3 $end
+$var wire 1 # o_LED_2 $end
+$var wire 1 $ o_LED_1 $end
+$var reg 1 % i_Switch_1 $end
+$var reg 1 & i_Switch_2 $end
+$scope module uut $end
+$var wire 1 % i_Switch_1 $end
+$var wire 1 & i_Switch_2 $end
+$var wire 1 $ o_LED_1 $end
+$var wire 1 # o_LED_2 $end
+$var wire 1 " o_LED_3 $end
+$var wire 1 ! o_LED_4 $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+0&
+0%
+0$
+0#
+1"
+0!
+$end
+#10
+1#
+1!
+1&
+b1 '
+#20
+1%
+0&
+b10 '
+#30
+0"
+1$
+0!
+1&
+b11 '
+#40
+b100 '
