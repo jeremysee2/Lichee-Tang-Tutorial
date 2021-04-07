@@ -1,0 +1,34 @@
+standard
+***Report Model: UART_Transceiver***
+
+IO Statistics
+#IO                     5
+  #input                3
+  #output               2
+  #inout                0
+
+Gate Statistics
+#Basic gates          247
+  #and                 64
+  #nand                 0
+  #or                  19
+  #nor                  0
+  #xor                  0
+  #xnor                 0
+  #buf                  0
+  #not                 86
+  #bufif1               0
+  #MX21                17
+  #FADD                 0
+  #DFF                 32
+  #LATCH               29
+#MACRO_ADD             12
+#MACRO_EQ               3
+#MACRO_MUX             52
+
+Report Hierarchy Area:
++---------------------------------------------------+
+|Instance |Module           |gates  |seq    |macros |
++---------------------------------------------------+
+|top      |UART_Transceiver |186    |61     |16     |
++---------------------------------------------------+

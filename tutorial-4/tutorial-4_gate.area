@@ -1,0 +1,33 @@
+standard
+***Report Model: UART_Transceiver***
+
+IO Statistics
+#IO                     5
+  #input                3
+  #output               2
+  #inout                0
+
+Utilization Statistics
+#lut                  194   out of  19600    0.99%
+#reg                   59   out of  19600    0.30%
+#le                   198
+  #lut only           139   out of    198   70.20%
+  #reg only             4   out of    198    2.02%
+  #lut&reg             55   out of    198   27.78%
+#dsp                    0   out of     29    0.00%
+#bram                   1   out of     64    1.56%
+  #bram9k               1
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                    5   out of    188    2.66%
+  #ireg                 0
+  #oreg                 2
+  #treg                 0
+#pll                    0   out of      4    0.00%
+
+Report Hierarchy Area:
++------------------------------------------------+
+|Instance |Module           |le    |lut   |seq   |
++------------------------------------------------+
+|top      |UART_Transceiver |198   |194   |59    |
++------------------------------------------------+

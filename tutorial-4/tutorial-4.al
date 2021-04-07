@@ -2,6 +2,7 @@
 <Project>
     <Project_Created_Time>2002-10-22 12:35:22</Project_Created_Time>
     <TD_Version>4.6.18154</TD_Version>
+    <UCode>00001101</UCode>
     <Name>tutorial-4</Name>
     <HardWare>
         <Family>EG4</Family>
@@ -26,7 +27,7 @@
     </TOP_MODULE>
     <Project_Settings>
         <Step_Last_Change>2002-10-22 12:35:22</Step_Last_Change>
-        <Current_Step>0</Current_Step>
+        <Current_Step>50</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>
 </Project>
