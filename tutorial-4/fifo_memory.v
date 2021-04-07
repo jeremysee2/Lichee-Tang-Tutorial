@@ -57,6 +57,7 @@ module fifo_memory (
     assign	nxtread = rdaddr + 1'b1;
 
     always @(posedge i_Clock, negedge i_Reset)
+    
         // Reset case
         if (!i_Reset)
         begin
@@ -64,10 +65,6 @@ module fifo_memory (
             fifo_full <= 1'b0;
             fifo_empty <= 1'b1;
             
-            // Reset internal signals
-            wraddr <= 0;
-            rdaddr <= 0;
-            r_Data_Out <= 0;
         end else casez({ i_Write_En, i_Read_En, !fifo_full, !fifo_empty })
         4'b01?1: begin	// A successful read
             fifo_full  <= 1'b0;

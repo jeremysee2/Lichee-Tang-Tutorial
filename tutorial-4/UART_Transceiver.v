@@ -87,7 +87,7 @@ module UART_Transceiver (
     // UART TX signals
     wire UART_TX_DV;
     wire [7:0] UART_TX_Byte;
-    wire UART_TX_Active;
+    // wire UART_TX_Active;
 
     // Check if data is ready to be read from l2u
     assign UART_TX_Byte = l2u_data_out;
@@ -101,7 +101,7 @@ module UART_Transceiver (
         .i_Reset(i_Reset),
         .i_TX_DV(UART_TX_DV),
         .i_TX_Byte(UART_TX_Byte),
-        .o_TX_Active(UART_TX_Active),
+        .o_TX_Active(),
         .o_TX_Serial(o_TX_Serial),
         .o_TX_Done(o_TX_Done)
         );
