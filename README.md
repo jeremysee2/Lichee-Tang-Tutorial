@@ -359,7 +359,7 @@ Congratulations! You've done your first FPGA project and you're well on your way
 
 ### Tutorial 2: Seven Segment Display
 
-In this tutorial, we will control a seven segment display using the FPGA. This will introduce concepts such as `module` instantiation where code can be written and reused, a similar paradigm to Object Oriented Programming. [Click here for the tutorial.]( "https://jeremysee2.github.io/2021/03/31/tutorial-2-seven-segment-display/")
+In this tutorial, we will control a seven segment display using the FPGA. This will introduce concepts such as `module` instantiation where code can be written and reused, a similar paradigm to Object Oriented Programming. [Click here for the tutorial.](https://jeremysee2.github.io/2021/03/31/tutorial-2-seven-segment-display/)
 
 ### Tutorial 3: UART Interface
 
