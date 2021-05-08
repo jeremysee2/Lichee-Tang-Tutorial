@@ -1,0 +1,36 @@
+## On board button and 24MHz clock
+set_pin_assignment	{ rst }	{ LOCATION = K16; }
+set_pin_assignment	{ clk }	{ LOCATION = K14; }
+
+## Seven Segment, 7 pins, common cathode configuration
+# set_pin_assignment	{ Segment_out[0] }	{ LOCATION = A4; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Segment_out[1] }	{ LOCATION = A3; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Segment_out[2] }	{ LOCATION = C5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Segment_out[3] }	{ LOCATION = B6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Segment_out[4] }	{ LOCATION = C9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Segment_out[5] }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Segment_out[6] }	{ LOCATION = B14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+
+# set_pin_assignment	{ Cathode[0] }	{ LOCATION = P2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Cathode[1] }	{ LOCATION = R2; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Cathode[2] }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+# set_pin_assignment	{ Cathode[3] }	{ LOCATION = P5; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 20; }
+
+## VGA pin assignments, 8-bit colour
+set_pin_assignment	{ R[0] }	{ LOCATION = L12; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ R[1] }	{ LOCATION = J11; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ R[2] }	{ LOCATION = J13; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment	{ B[0] }	{ LOCATION = H13; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ B[1] }	{ LOCATION = F16; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ B[2] }	{ LOCATION = E16; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment	{ G[0] }	{ LOCATION = C15; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ G[1] }	{ LOCATION = C16; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ G[2] }	{ LOCATION = B16; IOSTANDARD = LVCMOS33;}
+
+set_pin_assignment	{ o_VGA_HSync }	{ LOCATION = B15; IOSTANDARD = LVCMOS33;}
+set_pin_assignment	{ o_VGA_VSync }	{ LOCATION = A14; IOSTANDARD = LVCMOS33;}
+
+
+
