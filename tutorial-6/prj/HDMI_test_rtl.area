@@ -1,0 +1,34 @@
+standard
+***Report Model: HDMI_test***
+
+IO Statistics
+#IO                     8
+  #input                2
+  #output               6
+  #inout                0
+
+Gate Statistics
+#Basic gates          290
+  #and                 39
+  #nand                 0
+  #or                  36
+  #nor                  0
+  #xor                 72
+  #xnor                 0
+  #buf                  0
+  #not                 17
+  #bufif1               0
+  #MX21                 3
+  #FADD                 0
+  #DFF                123
+  #LATCH                0
+#MACRO_ADD             65
+#MACRO_EQ              16
+#MACRO_MUX             60
+
+Report Hierarchy Area:
++--------------------------------------------+
+|Instance |Module    |gates  |seq    |macros |
++--------------------------------------------+
+|top      |HDMI_test |167    |123    |82     |
++--------------------------------------------+

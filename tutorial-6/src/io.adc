@@ -1,0 +1,8 @@
+set_pin_assignment	{ TMDSp[0] }	{ LOCATION = C1; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ TMDSp[1] }	{ LOCATION = C3; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ TMDSp[2] }	{ LOCATION = B2; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ TMDSp_clock }	{ LOCATION = E3; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ pixclk }	{ LOCATION = L1; IOSTANDARD = LVDS33; }
+set_pin_assignment	{ HDMI_HPD }	{ LOCATION = G3; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ clk }	{ LOCATION = K14; }
+set_pin_assignment  { rst } { LOCATION = K16; }

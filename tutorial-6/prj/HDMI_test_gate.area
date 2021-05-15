@@ -1,0 +1,33 @@
+standard
+***Report Model: HDMI_test***
+
+IO Statistics
+#IO                     8
+  #input                2
+  #output               6
+  #inout                0
+
+Utilization Statistics
+#lut                  372   out of  19600    1.90%
+#reg                  120   out of  19600    0.61%
+#le                   376
+  #lut only           256   out of    376   68.09%
+  #reg only             4   out of    376    1.06%
+  #lut&reg            116   out of    376   30.85%
+#dsp                    0   out of     29    0.00%
+#bram                   0   out of     64    0.00%
+  #bram9k               0
+  #fifo9k               0
+#bram32k                0   out of     16    0.00%
+#pad                   12   out of    188    6.38%
+  #ireg                 0
+  #oreg                 3
+  #treg                 0
+#pll                    1   out of      4   25.00%
+
+Report Hierarchy Area:
++-----------------------------------------+
+|Instance |Module    |le    |lut   |seq   |
++-----------------------------------------+
+|top      |HDMI_test |376   |372   |120   |
++-----------------------------------------+
