@@ -4,6 +4,14 @@ module Seven_Segment (
 	output reg [6:0] OUTPUT
     );
 
+	//  AAAA            AAAA    AAAA            AAAA    AAAA    AAAA    AAAA    AAAA    AAAA                            AAAA    AAAA
+	// F    B       B       B       B  F    B  F       F            B  F    B  F    B  F    B  F                    B  F       F
+	// F    B       B       B       B  F    B  F       F            B  F    B  F    B  F    B  F                    B  F       F
+	//                  GGGG    GGGG    GGGG    GGGG    GGGG            GGGG    GGGG    GGGG    GGGG    GGGG    GGGG    GGGG    GGGG
+	// E    C       C  E            C       C       C  E    C       C  E    C       C  E    C  E    C  E       E    C  E       E
+	// E    C       C  E            C       C       C  E    C       C  E    C       C  E    C  E    C  E       E    C  E       E
+	//  DDDD            DDDD    DDDD            DDDD    DDDD            DDDD    DDDD            DDDD    DDDD    DDDD    DDDD
+
 	parameter zero   = 7'b1111110;  //Value for zero
 	parameter one    = 7'b0110000;  //Value for one
 	parameter two    = 7'b1101101;  //Value for two
