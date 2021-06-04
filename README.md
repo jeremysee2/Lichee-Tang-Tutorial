@@ -322,7 +322,7 @@ Right-click the Project menu and click on `New Project`.
 
 ![](/images/td-newproject-1.PNG)
 
-Select the correct device name for the board, `EG4X20BG256`.
+Select the correct device name for the board, `EG4S20BG256`.
 
 ![](/images/td-newproject-2.PNG)
 
