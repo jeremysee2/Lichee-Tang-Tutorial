@@ -262,6 +262,7 @@ Knowing that our test cases are sequentially incrementing, we can use a `for` lo
 `include "SwitchesToLEDs.v"
 
 module SwitchesToLEDs_tb;
+    integer i;
 	reg i_Switch_1;
     reg i_Switch_2;
     wire o_LED_1;
@@ -283,10 +284,10 @@ module SwitchesToLEDs_tb;
     	// Define testbench behaviour
         $dumpfile("SwitchesToLEDs_tb.vcd");
         $dumpvars(0, SwitchesToLEDs_tb);
-        
+
         // Test conditions
-        for (integer i=0; i<4; i = i+1) begin
-        	{i_Switch_1, i_Switch_2} = i;
+        for (i=0; i<4; i = i+1) begin
+            {i_Switch_1, i_Switch_2} = i;
             #10;
         end
         
