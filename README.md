@@ -354,7 +354,16 @@ Now, double click on `Generate Bitstream` to start the whole process of synthesi
 
 ![](/images/td-newproject-5.PNG)
 
-This will generate a `.bit` file, the bitstream to be uploaded to the board. Double-click on `Download` and `Add` the file. Click `Run` to upload the file directly to the FPGA. As the FPGA fabric is volatile, it will lose its configuration when powered off. To keep it, you will need to `Create Flash File` and upload that file to the flash instead. We won't be covering that here as it's not immediately useful for learning purposes. You should see the same behaviour observed in your simulation.
+This will generate a `.bit` file, the bitstream to be uploaded to the board. Double-click on `Download` and `Add` the file. Click `Run` to upload the file directly to the FPGA. As the FPGA fabric is volatile, it will lose its configuration when powered off. To keep it, you will need to `Create Flash File` and upload that file to the flash instead. We won't be covering that here as it's not immediately useful for learning purposes. You should see the same behaviour observed in your simulation. Note that the behaviour will be opposite if you use pull-up resistors instead of pull-down resistors. The truth table for the pull-up resistor is included for you to compare with the GIF.
+
+    | A' | B' | C | D | E | F |
+    |----|----|---|---|---|---|
+    | 1  | 1  | 0 | 0 | 1 | 0 |
+    | 0  | 1  | 0 | 1 | 1 | 1 |
+    | 1  | 0  | 0 | 1 | 1 | 1 |
+    | 0  | 0  | 1 | 1 | 0 | 0 |
+
+![](/images/td-tut1-video.gif)
 
 Congratulations! You've done your first FPGA project and you're well on your way down a rabbit hole of programmable logic fun!
 
