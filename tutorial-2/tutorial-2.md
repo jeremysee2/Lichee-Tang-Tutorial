@@ -2,7 +2,7 @@
 
 In this tutorial, we will control a seven segment display using the FPGA. This will introduce concepts such as `module` instantiation where code can be written and reused, a similar paradigm to Object Oriented Programming.
 
-A seven segment display is basically a package of seven/eight LEDs that allow you to form numbers 0-f by lighting them up in specific formats. In this tutorial, we use a common anode version, where the anodes are connected, and pulled `HIGH`
+A seven segment display is basically a package of seven/eight LEDs that allow you to form numbers 0-f by lighting them up in specific formats. In this tutorial, we use a **common anode version**, where the anodes are connected, and pulled `HIGH`
 
 ![](7-segment.gif)
 
@@ -73,7 +73,7 @@ module Seven_Segment
 endmodule
 ```
 
-Inside the `always` block, we define the behaviour of the outputs. We invert the output with a `~` operator, as we are using a common anode display. We need to drive the selected LED a/b/c/d/e/f/g `LOW` to turn it on. Save this file as `Seven_Segment.v`.
+Inside the `always` block, we define the behaviour of the outputs. We invert the output with a `~` operator, as we are using a common anode display. We need to drive the selected LED a/b/c/d/e/f/g `LOW` to turn it on. Save this file as `Seven_Segment.v`. If your segment display uses common cathode instead, remove the `~` operator from the code. For example, in case `4'b0000`, the code should be `OUTPUT <= zero;` instead of `OUTPUT <= ~zero;`. Repeat for all 17 cases, including the default case.
 
 ```verilog
 module Seven_Segment (
@@ -123,7 +123,7 @@ module Seven_Segment (
 endmodule
 ```
 
-Now, we've created a module that takes in a 4-bit input and displays the corresponding digit on the seven segment display. Let's do something more advanced. Now, we have a 4-digit seven segment display, as shown below. Let's show a 16-bit number on it!
+Now, we've created a module that takes in a 4-bit input and displays the corresponding digit on the seven segment display. Let's do something more advanced. Now, we have a 4-digit seven segment display, as shown below. Let's show a 16-bit number on it! Note that your segment display may have a different pin arrangement than shown below. Check the datasheet for your segment display. While you're at it, check if its a common anode or cathode display. It'll save you headache later on.
 
 ![](7-segment-four-digit.png)
 
@@ -175,7 +175,7 @@ module Seven_Segment_Display (
 endmodule
 ```
 
-Then, we add in our logic to alternate between the 4 digits of the seven segment display, to rapidly display all digits on them. We use a 2-bit counter `LEDactivatingcounter` to choose which one to light up, and `DigitNumber` to represent the 4-bit digit displayed on the current display.
+Then, we add in our logic to alternate between the 4 digits of the seven segment display, to rapidly display all digits on them. We use a 2-bit counter `LEDactivatingcounter` to choose which one to light up, and `DigitNumber` to represent the 4-bit digit displayed on the current display. If your segment display uses common cathode, your `Cathode` variable will be the bitwise not equivalent of what is shown in the code below. For example, in the case of `2'b00`, `Cathode = 4'b0111` instead of `4'b1000`. Repeat for all five cases, including the default case.
 
 ```verilog
 `include "Seven_Segment.v"
@@ -276,11 +276,11 @@ module Fibonacci_Series (
 endmodule
 ```
 
-The Lichee Tang has an onboard 24MHz clock that we take in on pin `K14`. We divide that clock to get a slower clock to trigger the `Fibonacci_Series` module, incrementing it slowly.
+The Lichee Tang has an onboard 24MHz clock that we take in on pin `K14`. We divide that clock to get a slower clock to trigger the `Fibonacci_Series` module, incrementing it slowly. Save it as `Seven_Segment_Display_Top.v`.
 
 ```verilog
 `include "Seven_Segment_Display.v"
-`include "Fibonacci_Series.v"
+`include "Fibonacci_Serie.v"
 
 module Seven_Segment_Display_Top (
     input wire clk,
@@ -336,7 +336,7 @@ module Seven_Segment_Display_Top (
 endmodule
 ```
 
-Save our top module. Now, let's create a testbench to simulate our top module, ensuring that the output signals are as expected.
+Now, let's create a testbench to simulate our top module, ensuring that the output signals are as expected. Save it as `Seven_Segment_Display_Top_tb.v`.
 
 ```verilog
 `timescale 1ns/1ns
@@ -359,13 +359,14 @@ module Seven_Segment_Display_Top_tb ();
         .Segment_out(Segment_out)
     );
 
+    integer i;
     initial begin
         // Define testbench behaviour
         $dumpfile("Seven_Segment_Display_Top_tb.vcd");
         $dumpvars(0, Seven_Segment_Display_Top_tb);
 
         // Test conditions
-        for (integer i=0; i<10; i=i+1) begin
+        for (i=0; i<10; i=i+1) begin
             // Pulse clock, 20 units per cycle
             clk = ~clk; #10;
         end
@@ -375,7 +376,7 @@ module Seven_Segment_Display_Top_tb ();
 endmodule
 ```
 
-Before running the simulation, let's make some small changes to allow the simulation to take effect in a small number of timesteps. The simulation only does the 10\~1000s of steps, whereas your hardware implementation will do 24,000,000 in a single second at 24MHz. I've added a parameter to the children modules (accessible from the top module) to define a faster "slow clock", so we can see changes in fewer timesteps.
+Before running the simulation, let's make some small changes to allow the simulation to take effect in a small number of timesteps. The simulation only does the 10\~1000s of steps, whereas your hardware implementation will do 24,000,000 in a single second at 24MHz. I've added a parameter to the children modules (accessible from the top module) to define a faster "slow clock", so we can see changes in fewer timesteps. Your code should now look about the same as shown below. Take note that this is for the **common anode segment** display. Your `SevenSegmentDisplay.v` and `Seven_Segment.v` will be different if your display is common cathode.
 
 `SevenSegmentDisplay.v`
 
@@ -519,7 +520,7 @@ module Seven_Segment_Display_Top (
 endmodule
 ```
 
-`testbench`
+`Seven_Segment_Display_Top_tb.v`
 
 ```verilog
 `timescale 1ns/1ns
@@ -547,13 +548,14 @@ module Seven_Segment_Display_Top_tb ();
         .Segment_out(Segment_out)
     );
 
+    integer i;
     initial begin
         // Define testbench behaviour
         $dumpfile("Seven_Segment_Display_Top_tb.vcd");
         $dumpvars(0, Seven_Segment_Display_Top_tb);
 
         // Test conditions
-        for (integer i=0; i<100; i=i+1) begin
+        for (i=0; i<100; i=i+1) begin
             // Pulse clock, 20 units per cycle
             clk = ~clk; #10;
         end
@@ -573,7 +575,7 @@ vvp Seven_Segment_Display_Top_tb.vvp
 gtkwave Seven_Segment_Display_Top_tb.vcd
 ```
 
-We get the following output waveform when viewed in `gtkwave`.
+We get the following output waveform when viewed in `gtkwave`. Remember to zoom out.
 
 ![](tutorial-2_gtkwave.PNG)
 
@@ -584,7 +586,7 @@ Now, we've finally finished this seven segment display project that displays Fib
 3. Synthesise the bitstream in Tang Dynasty
 4. Upload it to your board with the appropriate connections
 
-The constraints file `io.adc` is available here, change it according to your wiring. If using a common cathode display instead of a common anode display, simply invert your logic in the Verilog source files.
+The constraints file `io.adc` is available here, change it according to your wiring. If using a common cathode display instead of a common anode display, simply invert your logic in the Verilog source files. Import your files into Tang Dynasty IDE as described in Tutorial 1. You import all your files *except* the testbench. 
 
 ```verilog
 # set_pin_assignment	{ RST_N }	{ LOCATION = K16; }
@@ -605,5 +607,25 @@ set_pin_assignment	{ clk }	{ LOCATION = K14; }
 
 ## Seven Segment, 7 pins, common anode configuration
 ```
+
+Wire up your FPGA to your segment display according to the table below.
+
+| Segment Display Pin | FPGA Pin |
+| ------------------- | -------- |
+|        D1           |    P5    |
+|        D2           |    N5    |
+|        D3           |    R2    |
+|        D4           |    P2    |
+|         A           |    B14   |
+|         B           |    B10   |
+|         C           |    C9    |
+|         D           |    B6    |
+|         E           |    C5    |
+|         F           |    A3    |
+|         G           |    A4    |
+
+Generate and download your bit stream into your FPGA on the Tang Dynasty IDE as described in Tutorial 1. Your output should look something like this.
+
+![](tutorial-2-video.gif)
 
 Congratulations! You've successfully created your first visual interface using an FPGA! [Click here for the next tutorial on the UART interface](https://jeremysee2.github.io/2021/03/31/tutorial-3-uart-inteface/).
